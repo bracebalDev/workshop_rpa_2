@@ -1,0 +1,29 @@
+[project]
+name = "whatsapp-rpa-bot"
+version = "1.0.0"
+description = "Bot de automatizacion RPA para WhatsApp Web utilizando Playwright y patrones de diseno (Builder, POM, Strategy) para fines academicos."
+authors = [
+    {name = "Brayan Ceballos", email = "139013523+bracebalDev@users.noreply.github.com"},
+]
+dependencies = [
+    "playwright>=1.62.0",
+    "keyring>=25.7.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+whatsapp-bot = "main:main"
+
+[tool.pdm]
+distribution = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
