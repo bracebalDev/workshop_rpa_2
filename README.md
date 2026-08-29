@@ -1,7 +1,7 @@
 # Taller de RPA — Asignación 2: Bot de WhatsApp Web con Playwright
 
 **Universidad de Carabobo**  
-*Facultad de Ciencias y Tecnología — Departamento de Computación*  
+*Facultad Experimental de Ciencias y Tecnología — Departamento de Computación*  
 *Sistemas de Información — Taller de Automatización Robótica de Procesos (RPA)*  
 **Autor:** Brayan Ceballos  
 
